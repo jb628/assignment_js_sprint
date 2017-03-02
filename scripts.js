@@ -26,11 +26,11 @@ var sprintFunctions = {
 
         words[i] = words[i].replace(pattern, "");
 
-        console.log(words)
+        //console.log(words)
         var letters = words[i].split('');
         letters[0] = letters[0].toUpperCase();
 
-        console.log("letters:" + letters);
+        //console.log("letters:" + letters);
         words[i]=letters.join('');
 
     }
@@ -42,7 +42,7 @@ var sprintFunctions = {
         words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
         console.log(words[i]);
       }*/
-    console.log("wordsfinal:" + words.join("_"));
+    //console.log("wordsfinal:" + words.join("_"));
     return words.join("_");
 
   },
